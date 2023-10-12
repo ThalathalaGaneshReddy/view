@@ -1,0 +1,78 @@
+user 
+
+{
+user ID : number(initial 0) 
+fist name :string
+last name :string 
+age : numer
+gender: string 
+father name : string 
+profile photo: file
+adhhar no :  number
+adhar proof : file
+address : string 
+country : string
+city: string  
+pincode: string 
+phone no : numer
+phone no2 : number
+parent no : number 
+email : string 
+note : string 
+
+occupation : boolen(employee/selfemployee/student/unemployee)
+company/collage  : string 
+company/collage address : string 
+employee / student ID: number
+highest education : string  
+reason : 
+
+
+joining date : date 
+leaving date : date
+
+paymentStatus : paid/pending 
+isActive : 0/1
+
+advance : 
+paid : 
+balance : 
+
+total fee : pending advance + pending balnce + this month fee
+balance : 
+
+
+payment History : [
+{
+ month: string
+ total : number
+ paid : number
+ balance : number
+ paid date : date
+}
+]
+
+
+
+
+}
+
+v1
+page:1
+create 
+
+page:2 
+dashboard/list 
+
+page 3 
+edit/update
+
+v2
+page1 
+login 
+
+page2 
+dashboard(create)/ profile (update)
+
+page3 
+create & update /update
